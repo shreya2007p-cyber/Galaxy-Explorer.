@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galaxy Explorer</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#">GALAXY</a>
+    <span>EXPLORE THE UNIVERSE</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">YOUR JOURNEY STARTS HERE</p>
+        <h1>Explore the<br>Unknown.</h1>
+        <p class="description">
+          Discover distant worlds in an interactive 3D universe.
+        </p>
+        <a class="explore-button" href="#discover">Discover More ↘</a>
+      </div>
+      <div id="planet-container"></div>
+    </section>
+
+    <section id="discover" class="discover">
+      <p class="eyebrow" data-aos="fade-up">BEYOND OUR WORLD</p>
+      <h2 data-aos="fade-up">A universe of possibilities.</h2>
+
+      <div class="cards">
+        <article class="planet-card" data-aos="fade-up">
+          <span>01 / THE RED PLANET</span>
+          <h3>Mars</h3>
+          <p>A rocky world with a fascinating landscape.</p>
+        </article>
+
+        <article class="planet-card" data-aos="fade-up" data-aos-delay="150">
+          <span>02 / THE GAS GIANT</span>
+          <h3>Jupiter</h3>
+          <p>A giant planet with powerful storms.</p>
+        </article>
+
+        <article class="planet-card" data-aos="fade-up" data-aos-delay="300">
+          <span>03 / THE RINGED WORLD</span>
+          <h3>Saturn</h3>
+          <p>A planet surrounded by spectacular rings.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
